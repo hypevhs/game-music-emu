@@ -21,7 +21,7 @@ if(NOT BUILD_SHARED_LIBS)
     set(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
 endif()
 
-find_package(ZLIB QUIET)
+find_package(ZLIB REQUIRED)
 
 # Ay_Apu is very popular around here
 if (USE_GME_AY OR USE_GME_KSS)
